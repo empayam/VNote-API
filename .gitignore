@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+package.json.user
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled files
+dist/
+
+# Environment variables
+.env
+
+# Dependency directories
+.sass-cache/
+bower_components/
+
+# Optional: Docker
+Dockerfile
+docker-compose.yml
+
+# Optional: Testing files
+coverage/
+.nyc_output/
