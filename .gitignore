@@ -1,33 +1,28 @@
-# Logs
-logs
-*.log
-
-# Node.js
+# Ignore node_modules directory
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-package.json.user
 
-# IDE-specific files
-.vscode/
-.idea/
-
-# Compiled files
-dist/
-
-# Environment variables
+# Ignore .env file (contains sensitive data)
 .env
 
-# Dependency directories
-.sass-cache/
-bower_components/
+# Ignore log files
+logs/
+*.log
 
-# Optional: Docker
-Dockerfile
-docker-compose.yml
+# Ignore build or bundled files
+/build
+/dist
 
-# Optional: Testing files
-coverage/
-.nyc_output/
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore local configuration files
+config/local.js
